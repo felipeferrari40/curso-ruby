@@ -1,5 +1,5 @@
 Hero.delete_all
 
 5.times do
-  Hero.create name: Faker::Superhero.name, id: Faker::IDNumber.french_insee_number
+  Hero.create name: Faker::Superhero.name, id: Faker::IDNumber.valid
 end
